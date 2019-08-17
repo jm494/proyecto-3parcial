@@ -13,5 +13,11 @@ namespace Punto_de_ventas.Connection
     {
         public Conexion() : base("JOMV") { }
         public ITable<Almacen> almacen { get { return GetTable<Almacen>(); } }
+        public ITable<DetalleVenta> det_ven { get { return GetTable<DetalleVenta>(); } }
+        public ITable<Usuario> usuario { get { return GetTable<Usuario>(); } }
+        public ITable<Consola> consola { get { return GetTable<Consola>(); } }
+        public ITable<Proveedor> proveedor { get { return GetTable<Proveedor>(); } }
+        public ITable<Categoria> categoria { get { return GetTable<Categoria>(); } }
+        public ITable<Cliente> cliente { get { return GetTable<Cliente>(); } }
     }
 }

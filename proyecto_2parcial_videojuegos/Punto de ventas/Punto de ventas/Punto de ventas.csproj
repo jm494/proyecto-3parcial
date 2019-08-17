@@ -82,6 +82,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="ModelsClass\Almacenes.cs" />
+    <Compile Include="ModelsClass\Categorias.cs" />
+    <Compile Include="ModelsClass\Clientes.cs" />
+    <Compile Include="ModelsClass\Consolas.cs" />
+    <Compile Include="ModelsClass\DetalleVentas.cs" />
+    <Compile Include="ModelsClass\Proveedores.cs" />
+    <Compile Include="ModelsClass\Usuarios.cs" />
     <Compile Include="Models\Almacen.cs" />
     <Compile Include="Models\Categoria.cs" />
     <Compile Include="Models\Cliente.cs" />

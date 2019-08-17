@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LinqToDB.Mapping;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,11 +7,12 @@ using System.Threading.Tasks;
 
 namespace Punto_de_ventas.Models
 {
-    class Proveedor
+    public class Proveedor
     {
-
-        private int proveedor_id;
-        private string razon_social;
-        private string rfc;
+        [PrimaryKey, Identity]
+        public int proveedor_id { get; set; }
+        public string ID { get; set; }
+        public string Razon_social { get; set; }
+        public string Rfc { get; set; }
     }
 }
